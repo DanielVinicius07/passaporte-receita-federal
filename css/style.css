@@ -22,7 +22,7 @@ header{
     color: white;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
+    
 }
 .logoPF{
     max-width: 3vw;
