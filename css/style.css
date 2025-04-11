@@ -12,8 +12,7 @@
     min-height: 100%vh;
 }
 .cabecalho{
-    background-color: #296DA8;
+    background-color: var(--primary-color);
     width: 600px;
     height: 300px;
-    color: aqua;
 }
