@@ -20,6 +20,7 @@ header{
     min-width: 100vw;
     max-height: 25vh;
     color: white;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     
