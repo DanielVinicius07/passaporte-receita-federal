@@ -17,4 +17,6 @@ body{
 }
 header{
     background-color: var(--primary-color);
+    min-width: 100vw;
+    max-height: 25vh;
 }
