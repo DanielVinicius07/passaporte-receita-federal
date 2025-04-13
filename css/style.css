@@ -9,14 +9,15 @@
     list-style: none;
     font-family: "Inter", sans-serif;
     /*border: 1px solid red;*/
-    min-height: 100%vh;
 }
 body{
     min-width: 100vw;
     min-height: 100vh;
+    overflow-x: hidden; 
+    
 }
 header{
-    background-color: var(--primary-color);
+    background-color: #296DA8;
     min-width: 100vw;
     max-height: 25vh;
     color: white;
@@ -24,12 +25,117 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    flex-direction: row-reverse;
 }
 .logoPF{
     max-width: 3vw;
     max-height: 20vh;
 }
 .titulos{
-    max-width: 25vw;
+    max-width: 50vw;
     max-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(231, 224, 224);
+    border: 1px solid #296DA8;
+}
+.nav_link{
+    padding: 10px 20px;
+}
+.form-section{
+    min-height: 70vh;
+    min-width: 100vw;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #296DA8;
+}
+.h3{
+    color: #296DA8;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.titulo-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 10px;
+    background-color: #296DA8;
+}
+.input-sections{
+    background-color: rgb(231, 224, 224);
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding:  20px 20px 20px 20px;
+    width: 70vw;
+}
+.div-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.input-group{
+    background-color: white;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.input-group3{
+    background-color: white;
+    width: 400px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.btn {
+    padding: 12px 24px;
+    background-color: #103759;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-self: center;
+  }
+.botao{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+@media (max-width: 600px) {
+    .form-section {
+      padding: 10px;
+    }
+  
+    .input-sections {
+      width: 100%;
+    }
+  
+    .input-group {
+      width: 100%;
+    }
+  }

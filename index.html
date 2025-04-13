@@ -9,16 +9,152 @@
 <body>
 
     <header>
+        <div class="lista1">
+            <ol>
+                <li><strong>1 - Conteúdo</strong></li>
+                <li><strong>2 - Menu</strong></li>
+                <li><strong>3 - Fim</strong></li>
+                <li><strong>4 - Acessibilidade</strong></li>
+                <li><strong>5 - Alto contraste</strong></li>
+            </ol>
+        </div>
         <div class="titulos">
-            <h1>Divisão de passaporte</h1>
+            <h1>Divisão de passaporte</h1><br>
             <h2>Coordenação-Geral de Polícia de Imigração</h2>
         </div>
         <div>
             <img src="assets/emblema.png" alt="logo policiaFederal" class="logoPF">
         </div>
     </header>
+    <nav class="nav">
+        <a href="#"class="nav_link">Home</a>
+        <a href="#" class="nav_link">Solicitação de passaporte</a>
+        <a href="#" class="nav_link">Agendamento de atendimento</a>
+        <a href="#" class="nav_link">Outros serviços</a>
+      </nav>
     <main>
+        <h2 class="titulo-form">Nova solicitação de passaporte</h2>
+        <section class="form-section">
+            <form>
+                <section class="input-sections">
+                    <h3 class="h3">Dados Pessoais</h3>
+                    <div class="div-inputs">
+                        <label for="name"><strong>Nome Completo:*</strong></label>
+                        <div class="input-group">
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome completo" 
+                        required autofocus>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="sexo"><strong>Sexo:</strong></label>
+                        <select id="sexo" name="sexo" class="input-group3" required>
+                        <option value="">Selecione...</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        </select>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="filiacao-1"><strong>Filiação 1:</strong></label>
+                        <div class="input-group">
+                        <input type="text" id="filiacao-1" name="filiacao-1" placeholder="Digite o nome da filiação" 
+                        required>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="sexo"><strong>Sexo:</strong></label>
+                        <select id="sexo" name="sexo" class="input-group3" required>
+                        <option value="">Selecione...</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        </select>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="filiacao-2"><strong>Filiação 2:</strong></label>
+                        <div class="input-group">
+                        <input type="text" id="filiacao-2" name="filiacao-2" placeholder="Digite o nome da filiação" 
+                        required>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="sexo"><strong>Sexo:</strong></label>
+                        <select id="sexo" name="sexo" class="input-group3" required>
+                        <option value="">Selecione...</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        </select>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="data-de-nascimento"><strong>Data de Nascimento:</strong></label>
+                        <div class="input-group">
+                        <input type="date" id="data-de-nascimento" name="data-de-nascimento" placeholder="Digite sua data de nascimento" 
+                        required>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="emancipado"><strong>Emancipado:</strong></label>
+                        <select id="emancipado" name="emancipado" class="input-group3" required>
+                        <option value="">Selecione...</option>
+                        <option value="sim">Sim</option>
+                        <option value="não">Não</option>
+                        </select>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="adocao"><strong>Adoção Internacional:</strong></label>
+                        <select id="adocao" name="adocao" class="input-group3" required>
+                        <option value="">Selecione...</option>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                        </select>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="raca"><strong>Raça ou cor:</strong></label>
+                        <div class="input-group">
+                        <input type="text" id="raca" name="raca" placeholder="Digite sua raça ou cor" 
+                        required>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="nacionalidade"><strong>Nacionalidade:</strong></label>
+                        <div class="input-group">
+                        <input type="text" id="nacionalidade" name="nacionalidade" placeholder="Digite sua nacionalidade" 
+                        required>
+                    </div>
+                    
+                    <h3 class="h3">Local de Nascimento</h3>
+                    <div class="div-inputs">
+                        <label for="pais"><strong>País:</strong></label>
+                        <div class="input-group">
+                        <input type="text" id="pais" name="pais" placeholder="Brasil" 
+                        required>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="cidade"><strong>Cidade:</strong></label>
+                        <div class="input-group">
+                        <input type="text" id="cidade" name="cidade" placeholder="Fortaleza" 
+                        required>
+                    </div>
 
+                    <div class="div-inputs">
+                        <label for="estado"><strong>Estado:</strong></label>
+                        <div class="input-group">
+                        <input type="text" id="estado" name="estado" placeholder="Ceará" 
+                        required>
+                    </div>
+                
+                    <div class="div-inputs">
+                        <h3 class="h3">Nomes Anteriores</h3>
+                        <label for="nome-anterior"><strong>Nome anterior:</strong></label>
+                        <div class="input-group">
+                        <input type="text" id="nome-anterior" name="nome-anterior" placeholder="Digite seu nome anterior" 
+                        required>
+                    </div>
+                    <div class="div-inputs">
+                        <label for="motivo"><strong>Motivo da mudança:</strong></label>
+                        <div class="input-group">
+                        <input type="text" id="motivo" name="motivo" placeholder="Digite o motivo da mudança" 
+                        required>
+                    </div>
+                </section>
+                <div class="botao">
+                    <button type="submit" class="btn">Enviar</button>
+                </div>
+            </form>
+        </section>
     </main>
 
     <footer>
